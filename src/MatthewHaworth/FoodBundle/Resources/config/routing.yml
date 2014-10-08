@@ -1,0 +1,3 @@
+matthew_haworth_food_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: MatthewHaworthFoodBundle:Default:index }

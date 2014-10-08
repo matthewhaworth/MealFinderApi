@@ -1,0 +1,4 @@
+matthew_haworth_food:
+    resource: "@MatthewHaworthFoodBundle/Resources/config/routing.yml"
+    prefix:   /
+
