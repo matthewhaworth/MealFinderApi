@@ -1,3 +1,5 @@
-matthew_haworth_food_homepage:
-    path:     /hello/{name}
-    defaults: { _controller: MatthewHaworthFoodBundle:Default:index }
+matthew_haworth_recipe:
+    type: rest
+    prefix: /v1
+    resource: "MatthewHaworth\FoodBundle\Controller\RecipeController"
+    name_prefix: api_1_
