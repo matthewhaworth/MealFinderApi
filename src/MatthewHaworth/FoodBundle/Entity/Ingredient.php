@@ -8,5 +8,15 @@ use Doctrine\ORM\Mapping as ORM;
  */
 class Ingredient
 {
+    /**
+     * @ORM\Column(type="integer")
+     * @ORM\Id
+     * @ORM\GeneratedValue(strategy="AUTO")
+     */
+    protected $id;
 
+    /**
+     * @ORM\Column(type="string", length=100)
+     */
+    protected $name;
 } 
